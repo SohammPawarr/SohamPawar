@@ -42,16 +42,10 @@ export default function Footer() {
              </div>
 
              <div className="text-sm md:text-base font-medium text-[#111111]/80 flex flex-col gap-2">
-                <p>Formula and Neue Montreal are used under the terms of free license for personal use.<br/>Copyright © Soham Pawar Foundry</p>
+                <p>Formula and Neue Montreal are used under the terms of free license for personal use.<br/>Copyright © Soham Pawar </p>
                 <p className="mt-4 font-bold text-[#111111]">{timeText} <span className="mx-1">✱</span> On the main hustle!</p>
                 <div className="flex flex-wrap items-center gap-2 md:gap-3 mt-2 font-bold text-[#111111]">
-                   <span>Copyright & stuff...</span>
-                   <span>•</span>
-                   <span>From India with 🤍</span>
-                   <span>•</span>
-                   <a href="#" className="hover:underline">Terms</a>
-                   <span>•</span>
-                   <a href="#" className="hover:underline">Privacy Policy</a>
+                   <span>Made by Soham Pawar From India with 🤍</span>
                 </div>
              </div>
           </div>
