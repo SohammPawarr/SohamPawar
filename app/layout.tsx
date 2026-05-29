@@ -4,6 +4,8 @@ import './globals.css';
 import SmoothScroll from '@/components/SmoothScroll';
 import NoiseOverlay from '@/components/NoiseOverlay';
 
+import Preloader from '@/components/Preloader';
+
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
@@ -54,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${neueMontreal.variable} ${formula.variable} font-sans bg-[#111111] text-[#EFEFEF] antialiased overflow-x-clip`}>
+        <Preloader />
         <SmoothScroll>
           <NoiseOverlay />
           {children}
