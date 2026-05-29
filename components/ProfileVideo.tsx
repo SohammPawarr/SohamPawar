@@ -23,7 +23,7 @@ export default function ProfileVideo() {
   return (
     <video
       ref={videoRef}
-      src="/assets/profile .mp4"
+      src="/assets/profile.mp4"
       muted
       playsInline
       loop={false}
